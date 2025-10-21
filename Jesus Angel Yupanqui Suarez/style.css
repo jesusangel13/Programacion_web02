@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+
+body {
+    font-family: 'Edu NSW ACT Cursive', cursive;
+    background-color: #f2f6fc;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 600;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+form {
+    background-color: white;
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+label i {
+    margin-right: 8px;
+    color: #000000;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-family: 'Edu NSW ACT Cursive', cursive;
+}
+
+.btnEnviar {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btnEnviar:hover {
+    background-color: #0d47a1;
+}
+
+.tabla-section {
+    width: 80%;
+    margin: 40px auto;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+th {
+    background-color: #3b1af5;
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #e3f2fd;
+}
+
+.btnEditar {
+    background-color: green;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
+    animation: brillo 1.5s infinite alternate;
+}
+
+.btnEliminar {
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000;
+    animation: brilloRojo 1.5s infinite alternate;
+}
+
+@keyframes brillo {
+    from {
+        box-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+    }
+
+    to {
+        box-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00;
+    }
+}
+
+@keyframes brilloRojo {
+    from {
+        box-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000;
+    }
+
+    to {
+        box-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000;
+    }
+}
